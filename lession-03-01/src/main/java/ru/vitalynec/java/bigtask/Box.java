@@ -23,7 +23,7 @@ public class Box<T extends Fruit> {
      *
      * @param fruit
      */
-    public void putFriut(T fruit) {
+    public void putFruit(T fruit) {
         fruitBox.add(fruit);
     }
 
