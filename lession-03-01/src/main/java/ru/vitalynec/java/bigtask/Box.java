@@ -50,7 +50,7 @@ public class Box<T extends Fruit> {
      * @param box
      * @return равенство веса Box
      */
-    public boolean compare(Box box) {
+    public boolean compare(Box<?> box) {
         return this.getWeight() == box.getWeight();
     }
 
